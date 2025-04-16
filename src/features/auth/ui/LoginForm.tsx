@@ -20,7 +20,7 @@ const LoginForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className="max-w-sm mx-auto p-4 border">
+    <form onSubmit={handleSubmit} className="max-w-sm mx-auto p-6 border rounded-2xl">
       <h1 className="text-xl mb-4">Login</h1>
       <input
         className="border p-2 w-full mb-2"
